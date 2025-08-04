@@ -25,7 +25,11 @@ header {
 
 .product-list {
   list-style-type: none;
-  padding: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .product-item {
